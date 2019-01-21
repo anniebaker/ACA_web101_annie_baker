@@ -21,6 +21,12 @@ body {
     left: 10%;
 
 }
+.about {
+    color: pink;
+}
+ul {
+    color: purple !important;
+}
 h2 {
     padding-bottom: 3px;
     color: rgb(92, 91, 91);
@@ -28,6 +34,9 @@ h2 {
 }
 h2:hover {
     color: black;
+}
+.first:hover {
+    font-size: 400%;
 }
 .date {
     padding-bottom: 6px;
@@ -61,7 +70,15 @@ li {
 li:hover {
     color: darkgray;
 }
+article .h2 {
+    color: black;
+}
+
+}
 footer {
     color: lightgray;
     margin: 10%;
+}
+h2 ~ h3 {
+    color: purple !important; 
 }
