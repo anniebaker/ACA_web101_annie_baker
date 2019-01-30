@@ -5,7 +5,7 @@ body {
     background-color: lightslategrey;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 500px) {
     #main-picture {
         display: block;
         max-width: 90%;
@@ -40,10 +40,10 @@ body {
     }
 }
 
-@media (min-width: 401px) and (max-width: 768px) {
+@media (min-width: 501px) and (max-width: 768px) {
     #main-picture {
         display: block;
-        max-width: 95%;
+        max-width: 80%;
         margin-left: auto;
         margin-right: auto;
         margin-top: 40px;
@@ -57,6 +57,29 @@ body {
         margin: 10px 0px;
         width: 30%;
         height: 20x;
+        float: left;
+    }
+    section {
+        display: none;
+    }
+}
+@media (min-width: 769px) {
+    #main-picture {
+        display: block;
+        max-width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+    }
+    button {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 24px;
+        text-transform: uppercase;
+        background-color: red;
+        color: white;
+        margin: 10px 0px;
+        width: 40%;
+        height: 50x;
         float: left;
     }
     section {

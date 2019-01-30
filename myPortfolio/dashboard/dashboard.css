@@ -1,0 +1,138 @@
+* {
+    box-sizing: border-box;
+}
+html,
+body {
+    height: 100%;
+}
+header {
+    background-color: red;
+    font-size: 3em;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    grid-area: header;
+  }
+.greeting {
+    background-color: orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-area: greeting;
+}
+.date {
+    background-color:yellow;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-area: date;
+  }
+.time {
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-area: time;
+}
+
+.calculator {
+    grid-area: calculator;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr 1fr 2fr;
+    grid-template-rows: 2fr 1fr 1fr 1fr 1fr 1fr 2fr;
+    grid-template-areas: 
+        ". . . . . ."
+        ". input input input input ."
+        ". . . . . ."
+        ". one two three plus ."
+        ". four five six minus ."
+        ". seven eight nine time ."
+        ". zeroo enter enter divide ."
+        ". . . . . .";
+    }
+        .input {
+            grid-area: input;
+            background-color: white;
+        }
+        .enter {
+            grid-area: enter;
+        }
+        .plus {
+            grid-area: plus;
+        }
+        .minus {
+            grid-area: minus;
+        }
+        .times {
+            grid-area: time;
+        }
+        .divide {
+            grid-area: divide;
+        }
+        .equal {
+            grid-area: equal;
+        }
+        .one {
+            grid-area: one;
+        }
+        .two {
+            grid-area: two;
+        }
+        .three {
+            grid-area: three;
+        }
+        .four {
+            grid-area: four;
+        }
+        .five {
+            grid-area: five;
+        }
+        .six {
+            grid-area: six;
+        }
+        .seven {
+            grid-area: seven;
+        }
+        .eight {
+            grid-area: eight;
+        }
+        .nine {
+            grid-area: nine;
+        }
+        .zero {
+            grid-area: zeroo;
+        }
+.to-doList {
+    background-color: blue;
+    grid-area: todoList;  
+ }
+    .to-doTitle {
+    grid-area: todoTitle;
+    }
+    .checkbox { 
+        grid-area: checkbox;
+    }
+    .tdinput {
+        grid-area: todoInput;
+    }
+   
+body {
+    display: grid;
+    grid-template-rows: 3fr 3fr 1fr 1fr 1fr 1fr 1fr 2fr 3fr 1fr;
+    grid-template-columns: 2fr 1fr 1fr 1fr 2fr 1fr 1fr 1fr 2fr;
+    grid-template-areas: 
+      ". . . . . . . . ."
+      ". . header header header header header . . "
+      ". . . . . . . . ."
+      ". . . greeting greeting greeting . . ."
+      ". . . . . . . . ."
+      ". . . . time . . . ."
+      ". . . . date . . . ."
+      ". . . . . . . . ."
+      "calculator . . . . . . . todoList"
+      ". . . . . . . . ."
+}
