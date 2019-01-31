@@ -3,7 +3,8 @@
 }
 html,
 body {
-    height: 100%;
+    height: 100vh;
+    background-image: url(midwest.png) 
 }
 header {
     background-color: red;
@@ -40,10 +41,11 @@ header {
 }
 
 .calculator {
+    background-color: #2d418f;
     grid-area: calculator;
     display: grid;
-    grid-template-columns: 2fr 1fr 1fr 1fr 1fr 2fr;
-    grid-template-rows: 2fr 1fr 1fr 1fr 1fr 1fr 2fr;
+    grid-template-columns: 30px 1fr 1fr 1fr 1fr 30px;
+    grid-template-rows: 20px 2fr 1fr 1fr 1fr 1fr 1fr 20px;
     grid-template-areas: 
         ". . . . . ."
         ". input input input input ."
@@ -54,12 +56,22 @@ header {
         ". zeroo enter enter divide ."
         ". . . . . .";
     }
+    .button {
+        background-color: #f2f2f2;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 1px;
+
+    }
         .input {
             grid-area: input;
             background-color: white;
+    
         }
         .enter {
             grid-area: enter;
+            grid-gap: 100px;
         }
         .plus {
             grid-area: plus;
@@ -107,11 +119,16 @@ header {
             grid-area: zeroo;
         }
 .to-doList {
-    background-color: blue;
+    background-color:#d0d0e1;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     grid-area: todoList;  
  }
     .to-doTitle {
     grid-area: todoTitle;
+    color: #53535c;
+    display: flex;
+    justify-content: center;
+    margin: 5px;
     }
     .checkbox { 
         grid-area: checkbox;
