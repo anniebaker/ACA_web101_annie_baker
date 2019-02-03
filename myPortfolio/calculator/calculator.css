@@ -1,0 +1,110 @@
+ * {
+    box-sizing: border-box;
+}
+/* body {
+    min-height: 100vh;
+} */
+/* .calculator {
+    background-color: #545454;
+    border: 2px #545454 solid;
+    border-radius: 8px;
+    box-shadow: 3px 3px 10px #545454;
+    width: 500px;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-direction: row;
+} */
+/*.container {
+    background-color: rgb(214, 214, 214);
+    border-radius: 8px;
+    width: 400px;
+    height: 600px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-content: space-around;
+    
+}
+*/
+
+main {
+    height: auto;
+    width: auto;
+}
+.calculator {
+    background-color: #cdcbd3;
+    height: 310px;
+    width: 210px;
+    border-radius: 8px;
+    display: grid;
+    grid-template-columns: 10px 250px 10px;
+    grid-template-rows: 10px 50px 10px repeat(5, 45px) 20px;
+    grid-template-areas:
+    ". .....   ."
+    "input input input"
+    ". ......  ."
+    ". first   ."
+    " . second ."
+    " . third ."
+    " . fourth ."
+    " . fifth ."
+    "bottom bottom bottom"
+}
+.input {
+    height: 50px;
+    width: 175px;
+    background-image: linear-gradient(to bottom, white, #dedce4);
+    box-shadow: 3px 3px 10px #858588;
+    padding-top: 20px;
+    margin-left: 15px;
+    margin-right: 10px;
+    border-radius: 5px;
+    grid-area: input;
+
+}
+.row {
+    display: flex;
+    flex-direction: row;
+    align-content: space-around;
+    margin: 1px 1px;
+}
+.row > .btn {
+    background-image: linear-gradient(to bottom left, #676a6d, #929699);
+    box-shadow: 3px 3px 10px #676769;
+    border-radius: 8px;
+    height: 40px;
+    width: 40px;
+    margin: 3px;
+    font-family: Helvetica;
+    font-size: 22px;
+    color: white;
+    text-transform: bold;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+  } 
+
+.first {
+    grid-area: first;
+}
+.second {
+    grid-area: second;
+}
+.third {
+    grid-area: third;
+}
+.fourth {
+    grid-area: fourth;
+}
+.fifth {
+    grid-area: fifth;
+}
+.bottom {
+    grid-area: bottom;
+    height: 50px;
+}
+  /* wp1o */
