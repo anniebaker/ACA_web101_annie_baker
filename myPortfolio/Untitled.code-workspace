@@ -2,7 +2,12 @@
 	"folders": [
 		{
 			"path": "calculator"
+		},
+		{
+			"path": "checkpoint 1"
 		}
 	],
-	"settings": {}
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "checkpoint 1"
+	}
 }
