@@ -1,0 +1,57 @@
+body {
+    box-sizing: border-box;
+    height: 100%;
+    margin: 0 auto;
+    width: 850px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+    display: flex;
+    height: 450px;
+    background-image: url(pillars.png);
+    color: white;
+    font-size: 4em;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+section {
+    display: flex;
+    color: white;
+    margin: 20px 0px;
+    justify-content: space-between;
+}
+
+article {
+    height: 324px;
+    width: 270px;
+    padding: 10px 20px;
+    background-color: #9898a3;
+}
+
+div {
+    margin: 10px 0px;
+}
+
+input {
+    width: 200px;
+}
+
+.message {
+    height: 60px;
+}
+
+#send {
+    display: flex;
+    height: 25px;
+    width: 70px;
+    font-weight: bold;
+    border-radius: 6px;
+    background-color: #4b4b68;
+    cursor: pointer;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
