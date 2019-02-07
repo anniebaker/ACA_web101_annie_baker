@@ -1,0 +1,84 @@
+* {
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+
+}
+body {
+    background-color: rgb(36, 36, 110);
+
+}
+.header {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    text-transform: lowercase;
+    color: darkgrey;
+    padding: 20px 0px;
+    position: relative;
+    left: 10%;
+
+}
+.about {
+    color: pink;
+}
+ul {
+    color: purple !important;
+}
+h2 {
+    padding-bottom: 3px;
+    color: rgb(92, 91, 91);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h2:hover {
+    color: black;
+}
+.first:hover {
+    font-size: 400%;
+}
+.date {
+    padding-bottom: 6px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: rgb(68, 68, 68);
+}
+.block {
+    background-color: lightgray;
+    max-width: 50%;
+    min-width: 30%;
+    margin: 10px auto;
+    padding: 10px 30px;
+    overflow: hidden;
+}
+.block:hover {
+    background-color: white;
+    opacity: .4;
+}
+li {
+    display: inline;
+    color: lightgray;
+    position: relative;
+    left: 60%;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 30px 20px;
+    margin-top: 50px;
+    text-transform: lowercase;
+}
+li:hover {
+    color: darkgray;
+}
+article .h2 {
+    color: black;
+}
+
+}
+footer {
+    color: lightgray;
+    margin: 10%;
+}
+h2 ~ h3 {
+    color: purple !important; 
+}
