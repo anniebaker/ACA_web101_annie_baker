@@ -4,9 +4,9 @@
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
 }
-.boxy {
+/* .boxy {
     border:2px red solid;
-}
+} */
 
 img {
     height: 200px;
@@ -38,6 +38,7 @@ ul {
 
 li {
     margin: 16px;
+    cursor: pointer;
 }
 
 .banner {
@@ -46,11 +47,12 @@ li {
     justify-content: right;
     align-content: right;
     text-align: right;
-    background-image: url(banner.jpg);
+    background-image: url(./images/banner.jpg);
     color: white;
     padding: 10px;
     height: 400px;
     width: 100%;
+    margin-bottom: 20px;
 }
  
 span {
@@ -78,6 +80,7 @@ span {
     text-align: center;
     justify-content: center;
     flex-direction: row;
+    cursor: pointer;
 }
 article {
     display: flex;
@@ -85,6 +88,8 @@ article {
     justify-content: center;
     align-content: center;
     text-align: center;
+    color: white;
+    background-image: linear-gradient(to bottom, lightgrey, darkgrey);
     flex-shrink: 1;
 }
 
@@ -93,5 +98,10 @@ article {
     flex-direction: row;
     justify-content: space-around;
     align-content: center;
+    margin-bottom: 60px;
+    background-image: linear-gradient(to bottom, white, lightgrey);
 }
 
+footer {
+    background-color: rgb(35, 35, 95);
+    color: white;
