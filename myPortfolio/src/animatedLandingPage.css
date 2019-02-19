@@ -1,0 +1,85 @@
+body {
+    box-sizing: border-box;
+    height: 100%;
+    margin: 0 auto;
+    width: 850px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+    display: flex;
+    height: 450px;
+    background-image: url(../images/lizardbackground.png);
+    background-size: 110% 110%;
+    color: white;
+    font-size: 4em;
+    flex-direction: column;
+    justify-content: center;
+    letter-spacing: .4em;
+    text-align: center;
+}
+
+section {
+    display: flex;
+    color: white;
+    margin: 20px 0px;
+    justify-content: space-between;
+}
+
+h1 {
+    animation-name: fadeInDown;
+    animation-duration: 3s;
+}
+
+article {
+    height: 324px;
+    width: 270px;
+    padding: 10px 20px;
+    background-color: #9898a3;
+    font-family: Roboto;
+}
+
+div {
+    margin: 10px 0px;
+}
+
+article > div:hover {
+    animation-name: shake;
+    animation-duration: 2s;
+    cursor: pointer;
+}
+input {
+    width: 195px;
+}
+
+textarea {
+    width: 195px;
+    height: 70px;
+}
+
+#send {
+    display: flex;
+    height: 30px;
+    width: 200px;
+    font-weight: bold;
+    font-size: .7em;
+    padding: 0px;
+    border-radius: 6px;
+    background-color: #4b4b68;
+    cursor: pointer;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.lizardpic {
+    width: 200px;
+    height: 300px;
+    background-image: url(../images/lizard.png);
+    background-size: 100% 100%;
+    animation-name: zoomOutRight;
+    animation-duration: 4s;
+    margin: 0 auto;
+    position: absolute;
+}
+
