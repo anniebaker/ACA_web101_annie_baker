@@ -1,0 +1,237 @@
+body {
+    box-sizing: border-box;
+    height: 100%;
+    margin: 0 auto;
+    width: 850px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+    display: flex;
+    height: 450px;
+    background-image: url(../images/lizardbackground.jpg);
+    background-size: 110% 110%;
+    color: white;
+    font-size: 4em;
+    flex-direction: column;
+    justify-content: center;
+    letter-spacing: .4em;
+    text-align: center;
+}
+
+section {
+    display: flex;
+    color: white;
+    margin: 20px 0px;
+    justify-content: space-between;
+}
+
+h1 {
+    animation-name: fadeInDown;
+    animation-duration: 3s;
+}
+
+article {
+    height: 324px;
+    width: 270px;
+    padding: 10px 20px;
+    background-color: #9898a3;
+    font-family: Roboto;
+}
+
+div {
+    margin: 10px 0px;
+}
+
+article > div:hover {
+    animation-name: shake;
+    animation-duration: 2s;
+    cursor: pointer;
+}
+input {
+    width: 195px;
+}
+
+textarea {
+    width: 195px;
+    height: 70px;
+}
+
+#send {
+    display: flex;
+    height: 30px;
+    width: 200px;
+    font-weight: bold;
+    font-size: .7em;
+    padding: 0px;
+    border-radius: 6px;
+    background-color: #4b4b68;
+    cursor: pointer;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.lizardpic {
+    width: 250px;
+    height: 300px;
+    background-image: url(../images/lizard.png);
+    background-size: 100% 100%;
+    animation-name: leavePage;
+    animation-duration: 6s;
+    animation-fill-mode: forwards;
+    margin: 0 auto;
+    position: absolute;
+}
+
+@keyframes leavePage {
+    0% {
+        top: 0px; 
+        left: 0px; 
+        /* opacity: 0; */
+    }
+    50% {
+        top: 50vh; 
+        left: 50vw;
+        /* opacity: ; */
+    }
+    100% {
+        top: 100vh; 
+        left: 100vw; 
+    }
+}
+
+@media (max-width: 576px) {
+    body {
+        box-sizing: border-box;
+        height: 100%;
+        margin: 0 auto;
+        width: 480px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    main {
+        display: flex;
+        height: 80px;
+        background-image: url(../images/lizardbackground.jpg);
+        background-size: 500% 500%;
+        color: white;
+        font-size: 1em;
+        flex-direction: column;
+        justify-content: center;
+        letter-spacing: .1em;
+        text-align: center;
+    }
+    
+    section {
+        display: flex;
+        flex-direction: column;
+        color: white;
+        /* margin: 20px 0px; */
+        justify-content: flex-start;
+        font-size: .8em;
+    }
+    
+    h1 {
+        animation-name: fadeInDown;
+        animation-duration: 3s;
+    }
+
+    h2 {
+        margin: 0px 0px;
+        padding: 0px;
+        font-size: 1em;
+        letter-spacing: .1em;
+        text-align: center;
+    }
+    
+    article {
+        height: 300px;
+        width: 440px;
+        /* padding: 10px 20px; */
+        background-color: #9898a3;
+        font-family: Roboto;
+    }
+
+    section > article:nth-child(1) {
+        height: 100px;
+    }
+    
+    section > article:nth-child(2) {
+        height: 190px;
+        text-align: center;
+    }
+    .social-media {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    /* section > article:nth-child(3) {
+        height: 300px;
+    } */
+
+    article > div:hover {
+        animation-name: shake;
+        animation-duration: 2s;
+        cursor: pointer;
+    }
+
+    .address {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    input {
+        width: 195px;
+    }
+    
+    textarea {
+        width: 195px;
+        height: 70px;
+    }
+    
+    #send {
+        display: flex;
+        height: 30px;
+        width: 200px;
+        font-weight: bold;
+        font-size: .7em;
+        padding: 0px;
+        border-radius: 6px;
+        background-color: #4b4b68;
+        cursor: pointer;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+    
+    .lizardpic {
+        width: 100px;
+        height: 100px;
+        background-image: url(../images/lizard.png);
+        background-size: 100% 100%;
+        animation-name: leavePage;
+        animation-duration: 6s;
+        animation-fill-mode: forwards;
+        margin: 0 auto;
+        position: absolute;
+    }
+    
+    @keyframes leavePage {
+        0% {
+            top: 0px; 
+            left: 0px; 
+            /* opacity: 0; */
+        }
+        50% {
+            top: 50vh; 
+            left: 50vw;
+            /* opacity: ; */
+        }
+        100% {
+            top: 100vh; 
+            left: 100vw; 
+        }
+    }
+}
