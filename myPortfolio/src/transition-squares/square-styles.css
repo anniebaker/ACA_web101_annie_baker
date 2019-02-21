@@ -11,15 +11,62 @@ div {
     height: 50px;
     background-color: red;
     margin: 0 auto;
-    transition: all 1s ease-in-out;
+}
+
+.one {
+    background-color: #3333cc;
+}
+
+.two {
+    background-color: #4d4dc9
+}
+
+.three {
+    background-color: #5959ca
+}
+
+.four {
+    background-color: #6969c4
+}
+
+.five {
+    background-color: #7575c0
+}
+
+.six {
+    background-color: #8383c0
+}
+
+.seven {
+    background-color: #9090bb
+}
+
+.eight {
+    background-color: #a2a2c0
+}
+
+.nine {
+    background-color: #a2a2bd
+}
+
+.ten {
+    background-color: #ababc4
+}
+
+.eleven {
+    background-color: #bdbdd6
+}
+
+.twelve {
+    background-color: #e1e1f1
 }
 
 div:nth-child(even) {
-    transition: all 1s ease-in-out;
+    transition: all .5s ease-in-out;
 }
 
 div:nth-child(odd) {
-    transition: all 4s ease-in-out;
+    transition: all 1.5s ease-in-out;
 }
 
 section:hover div:nth-child(even) {
