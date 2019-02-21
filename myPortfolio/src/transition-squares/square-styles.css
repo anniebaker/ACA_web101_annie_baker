@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+}
+
+section {
+    width: 50px;
+    margin: 0 auto;
+}
+div {
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    margin: 0 auto;
+    transition: all 1s ease-in-out;
+}
+
+div:nth-child(even) {
+    transition: all 1s ease-in-out;
+}
+
+div:nth-child(odd) {
+    transition: all 4s ease-in-out;
+}
+
+section:hover div:nth-child(even) {
+    transform: translate(-100px) rotate(180deg) scale(.5, .5);
+}
+
+section:hover div:nth-child(odd) {
+    transform: translate(100px) rotate(180deg) scale(2, 2);
+}
+
+
+
+/* matrix(scaleX(),skewY(),skewX(),scaleY(),translateX(),translateY()) */
