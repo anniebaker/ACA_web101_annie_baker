@@ -1,0 +1,157 @@
+* {
+    box-sizing: border-box;
+}
+
+a {
+    color: white;
+    text-decoration: none;  
+}
+
+@media (min-width: 577px) {
+    body {
+        height: 100vh;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
+    header {
+        background-color: #377756;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        height: 30%;
+    }
+
+    nav {
+        display: flex;
+        justify-content: space-around;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    nav > p {
+        flex: 1;
+        text-align: center;
+        cursor: pointer;
+    }
+
+    h1 {
+        margin: 3em auto;
+        text-align: center;
+        font-size: 2em;
+        letter-spacing: .2em;
+        line-height: .9em;
+        font-family: 'Coiny', cursive;
+    }
+
+    main {
+        height: 45%;
+    }
+
+    .body-container {
+        background-color:  #292c3a;
+    }
+
+    h2 {
+        font-size: .8em;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        text-align: center;
+    }
+
+    .color-bar {
+        background-color: #7c42b5;
+        width: 200px;
+        height: 30px;
+        margin: 0 auto;
+    }
+
+    article {
+        color: white;
+        background-color: #292c3a;
+        width: 100vw;
+        height: auto;
+    }
+
+    article > p {
+        text-align: left;
+        margin: 0 auto;
+        padding: 2% 15% 2% 15%;
+    }
+    section {
+        color: white;
+        background-color:  #292c3a;
+        padding: 20px;
+    }
+}
+
+@media (max-width: 576px) {
+    body {
+        /* height: 100vh; */
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
+    header {
+        background-color: #377756;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        height: 20%;
+    }
+
+    nav {
+        display: flex;
+        justify-content: space-around;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: .8em;
+    }
+
+    nav > p {
+        flex: 1;
+        text-align: center;
+        cursor: pointer;
+    }
+
+    h1 {
+        margin: 1em auto;
+        text-align: center;
+        font-size: 1.5em;
+        font-family: 'Coiny', cursive;
+    }
+
+    main {
+        height: 80%;
+    }
+
+    .body-container {
+        background-color:  #292c3a;
+    }
+
+    h2 {
+        font-size: .6em;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        text-align: center;
+    }
+
+    .color-bar {
+        background-color: #7c42b5;
+        width: 100px;
+        height: 10px;
+        margin: 0 auto;
+    }
+
+    article {
+        color: white;
+        background-color: #292c3a;
+        width: 100vw;
+        height: auto;
+    }
+
+    article > p {
+        text-align: left;
+        margin: 0 auto;
+        padding: 1% 7% 1% 7%;
+    }
+    section {
+        color: white;
+        background-color:  #292c3a;
+        padding: 10px;
+    }
+}

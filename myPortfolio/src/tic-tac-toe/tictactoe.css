@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+section {
+    width: 600px;
+    margin: 20px auto;
+}
+
+div {
+    background-color: lightgrey;
+    width: 200px;
+    height: 200px;
+    float: left;
+}
+
+div:hover {
+    background-color: grey;
+    cursor: pointer;
+}
+
+#upper-left {
+    border-right: 2px black solid;
+    border-bottom: 2px black solid;
+}
+
+#upper-center {
+    border-right: 2px black solid;
+    border-bottom: 2px black solid;
+}
+
+#upper-right {
+    border-bottom: 2px black solid;
+}
+#center-left {
+    border-right: 2px black solid;
+    border-bottom: 2px black solid;
+}
+
+#center {
+    border-right: 2px black solid;
+    border-bottom: 2px black solid;
+}
+
+#center-right {
+    border-bottom: 2px black solid;
+}
+
+#bottom-left {
+    border-right: 2px black solid;
+}
+
+#bottom-center {
+    border-right: 2px black solid;
+}
+
+input {
+    width: 200px;
+    margin: 10px auto;
+}
