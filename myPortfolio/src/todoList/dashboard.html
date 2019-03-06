@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>My Dashboard</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="dashboard.css" />
+    <script src="main.js"></script>
+</head>
+<body>
+    <header>Welcome to the Future!</header>
+    <div class="greeting">Good Afternoon, Dave!</div>
+    <div class="date">February 2, 2021</div>
+    <div class="time">11:11 a.m.</div>
+    <div class="row-container">
+        <article class="calculator">
+                <div class="input button"></div>
+                <div class="enter button">Enter</div>
+                <div class="plus button">+</div>
+                <div class="minus button">-</div>
+                <div class="times button">x</div>
+                <div class="divide button">/</div>
+                    <div class="one button">1</div>
+                    <div class="two button">2</div>
+                    <div class="three button">3</div>
+                    <div class="four button">4</div>
+                    <div class="five button">5</div>
+                    <div class="six button">6</div>
+                    <div class="seven button">7</div>
+                    <div class="eight button">8</div>
+                    <div class="nine button">9</div>
+                    <div class="zero button">0</div>
+        </article>
+        <div id="list_section">
+                <h1 id="header">To-Do</h1>
+                <ul>
+                <li class="item">Write Blog Post</li>
+                </ul>
+                <div id="newItemButton"><button href="#">new item</button></div>
+                <form id="newItemForm">
+                <input type="text" id="itemField" placeholder="Item" />
+                <input type="submit" id="add" value="add" />
+                </form>
+        </div>
+    </div>
+<script src="../../jquery/jquery.js"></script>
+<script src="todoList.js"></script>
+</body>
+</html>

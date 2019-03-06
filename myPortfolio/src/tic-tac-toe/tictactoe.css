@@ -16,6 +16,9 @@ div {
     width: 200px;
     height: 200px;
     float: left;
+    display: flex;
+    color: white;
+    font-size: 4em;
 }
 
 div:hover {
