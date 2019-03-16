@@ -1,0 +1,209 @@
+@media only screen and (min-width:577px) {
+    * {
+        box-sizing: border-box;
+    }
+
+    body {
+        background-color: #eaedff;
+    }
+
+    h1 {
+        text-align: center;
+        font-family: 'Bangers', cursive;
+        font-size: 2em;
+        width: 100%;
+        background-color: #8995f4;
+        color: white;
+        margin: 10px 0px 60px 0px;
+        padding: 16px 0px;
+    }
+
+    p {
+            margin: 0 auto;
+            font-family: 'Indie Flower', cursive;
+            color: #5a5a5a;
+        }
+        
+    div article {
+        width: 240px;
+        height: 240px;
+        margin: auto;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .about-paragraph {
+        background-color: white;
+        padding: 40px 10% 40px 10%;
+        width: 80%;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-bottom: 40px;
+        background-color: #dde1ff;
+        padding: 40px;
+    }
+
+    article div:first-child {
+        width: 120px;
+        height: 20px;
+        margin: 0 auto;
+        border-radius: 8px;
+    }
+            .bar-one {
+                background-color: #8be5e2;
+            }
+            .bar-two {
+                background-color: #8bb9e5;
+            }
+            .bar-three {
+                background-color: #7c8ed6;
+            }
+            .bar-four {
+                background-color: #927cd6;
+            }
+            .bar-five {
+                background-color: #bf7cd6;
+            }
+            .bar-six {
+                background-color: #d67cb1;
+            }
+
+    article div:nth-child(2) {
+        background-size: 180%;
+        border-radius: 50%;
+        border: 8px solid white;
+        height: 140px;
+        width: 140px;
+        margin: 20px auto;
+    }
+            .image-one {
+                background-image: url("../../images/sloth-1.jpg");
+            }
+            .image-two {
+                background-image: url("../../images/sloth-2.jpg");
+            }
+            .image-three {
+                background-image: url("../../images/sloth-3.jpg");
+            }
+            .image-four {
+                background-image: url("../../images/sloth-4.jpg");
+            }
+            .image-five {
+                background-image: url("../../images/sloth-5.jpg");
+            }
+            .image-six {
+                background-image: url("../../images/sloth-6.jpg");
+            }
+    .about-paragraph-2 {
+        display: none;
+    }
+}
+
+@media only screen and (max-width:576px) {
+    * {
+        box-sizing: border-box;
+    }
+
+    body {
+        background-color: #dde1ff;
+    }
+
+    h1 {
+        text-align: center;
+        font-family: 'Bangers', cursive;
+        width: 100%;
+        background-color: #8995f4;
+        color: white;
+        margin: 10px 0px 20px 0px;
+        padding: 12px 0px;
+    }
+
+    p {
+            margin: 0 auto;
+            font-family: 'Indie Flower', cursive;
+            color: #5a5a5a;
+        }
+
+    div article {
+        width: 240px;
+        height: 240px;
+        margin: auto;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    
+    .about-paragraph {
+        display: none;
+    }
+
+    .about-paragraph-2 {
+        background-color: white;
+        padding: 40px 10% 40px 10%;
+        width: 80%;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-bottom: 40px;
+        padding-bottom: 20px;
+    }
+
+    article div:first-child {
+        width: 70%;
+        height: 20px;
+        margin: 0 auto;
+        border-radius: 10px;
+    }
+            .bar-one {
+                background-color: #8be5e2;
+            }
+            .bar-two {
+                background-color: #8bb9e5;
+            }
+            .bar-three {
+                background-color: #7c8ed6;
+            }
+            .bar-four {
+                background-color: #927cd6;
+            }
+            .bar-five {
+                background-color: #bf7cd6;
+            }
+            .bar-six {
+                background-color: #d67cb1;
+            }
+
+    article div:nth-child(2) {
+        background-size: 180%;
+        border-radius: 50%;
+        border: 8px solid white;
+        height: 140px;
+        width: 140px;
+        margin: 20px auto;
+    }
+            .image-one {
+                background-image: url("../../images/sloth-1.jpg");
+            }
+            .image-two {
+                background-image: url("../../images/sloth-2.jpg");
+            }
+            .image-three {
+                background-image: url("../../images/sloth-3.jpg");
+            }
+            .image-four {
+                background-image: url("../../images/sloth-4.jpg");
+            }
+            .image-five {
+                background-image: url("../../images/sloth-5.jpg");
+            }
+            .image-six {
+                background-image: url("../../images/sloth-6.jpg");
+            }
+}
