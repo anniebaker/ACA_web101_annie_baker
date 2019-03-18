@@ -1,0 +1,172 @@
+* {
+    box-sizing: border-box;
+}
+
+@media only screen and (max-width:576px) {
+    body {
+        background-color: #dde1ff;
+    }
+
+    h1 {
+        text-align: center;
+        font-family: 'Bangers', cursive;
+        font-size: 2em;
+        width: 100%;
+        background-color: #8995f4;
+        color: white;
+        margin: 10px 0px 20px 0px;
+        padding: 12px 0px;
+    }
+    .container {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .bar {
+        width: 275px;
+        height: 20px;
+        margin: 5px auto;
+        border-radius: 10px;
+        background-color: #8be5e2;
+
+    }
+
+    .margin {
+        flex: 1;
+        width: auto;
+        height: 100%;
+    }
+
+    form {
+        width: 400px;
+        padding: .8em;
+        border-radius: .8em;
+        background-color: #7c8ed6;
+        color: white;
+        font-family: 'Indie Flower', cursive;
+        font-size: 1em;
+      }
+      
+      form div + div {
+        margin-top: .8em;
+      }
+      
+      label {
+        display: inline-block;
+        width: 70px;
+        text-align: right;
+      }
+      
+      input, textarea {
+        font: 1em sans-serif;
+        width: 200px;
+        border: 1px solid #999;
+      }
+      
+      input:focus, textarea:focus {
+        border-color: #000;
+      }
+      
+      textarea {
+        vertical-align: top;
+        height: 5em;
+      }
+      
+      .button {
+        padding-left: 70px;
+        margin-left: .5em;
+      }
+
+    p {
+        margin: 0 auto;
+        color: #5a5a5a;
+        }
+}
+
+@media only screen and (min-width:577px) {
+    body {
+        background-color: #dde1ff;
+    }
+
+    h1 {
+        text-align: center;
+        font-family: 'Bangers', cursive;
+        font-size: 3em;
+        width: 100%;
+        background-color: #8995f4;
+        color: white;
+        margin: 10px 0px 20px 0px;
+        padding: 12px 0px;
+    }
+    .container {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .bar {
+        width: 350px;
+        height: 25px;
+        margin: 10px auto;
+        border-radius: 10px;
+        background-color: #8be5e2;
+
+    }
+
+    .margin {
+        flex: 1;
+        width: auto;
+        height: 100%;
+        background-color: red;
+    }
+
+    form {
+        width: 500px;
+        padding: 1em;
+        border-radius: 1em;
+        background-color: #7c8ed6;
+        color: white;
+        font-family: 'Indie Flower', cursive;
+        font-size: 1.1em;
+        margin: 0 auto;
+      }
+      
+      form div + div {
+        margin-top: 1em;
+      }
+      
+      label {
+        display: inline-block;
+        width: 90px;
+        text-align: right;
+      }
+      
+      input, textarea {
+        font: 1em sans-serif;
+        width: 300px;
+        border: 1px solid #999;
+      }
+      
+      input:focus, textarea:focus {
+        border-color: #000;
+      }
+      
+      textarea {
+        vertical-align: top;
+        height: 5em;
+      }
+      
+      .button {
+        padding-left: 90px;
+        margin-left: .5em;
+      }
+
+    p {
+        margin: 0 auto;
+        color: #5a5a5a;
+        padding: 20px;
+        }
+    .paragraph {
+        display: flex;
+        flex-direction: column;
+    }
+}
