@@ -3,30 +3,25 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Page Title</title>
+    <title>Towers of Hanoi</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="hanoi.css" />
-    <script src="main.js"></script>
 </head>
 <body>
-    <article> 
-        <div class="margins"></div>
-        <div class="pegs">
-            <div class="peg"></div>
+    <div class="container">
+        <div class="pegs"> 
+            <div class="peg" onlclick></div>
             <div class="peg"></div>
             <div class="peg"></div>
         </div>
-        <div class="margins"></div>
-    </article>
-    <div class="gameplay">
-        <div class="margins"></div>
-        <div class="pieces">
-            <div class="piece-large"></div>
-            <div class="piece-med"></div>
-            <div class="piece-small"></div>
-        </div>
-        <div class="margins"></div>
-    </div>
+        <div class="piece-box">
+            <div class="pieces">
+                <div id="small" class="piece-small"></div>
+                <div class="piece-med"></div>
+                <div class="piece-large"></div>
+            </div>
+        </div
+   ></div>
     <script src="../jquery/jquery.js"></script>
     <script src="hanoi.js"></script>
 </body>
