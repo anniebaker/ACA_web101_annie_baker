@@ -1,0 +1,108 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: #4262f4;
+    color: white;
+}
+@media only screen and (min-width:577px) {
+    h1 {
+        font-family: 'Alfa Slab One', cursive;
+        color: white;
+        font-size: 3em;
+        margin: 10% auto 0px auto;
+    }
+
+    .container {
+        margin: 20px auto;
+        padding: 2em;
+        width: 400px;
+        background-color: #8aa4f2;
+        border-radius: 8px;
+        font-family: 'Architects Daughter', cursive;
+    }
+
+    .takeClass, .getDegree {
+        text-align: center;
+        font-size: 2em;
+        font-family: 'Alegreya Sans SC', sans-serif;
+        border-radius: 10px;
+        color: white;
+        cursor: pointer;
+    }
+
+    .takeClass {
+        background-color: #c5349e;
+    }
+    .takeClass:hover {
+        background-color: #8f2472;
+    }
+    .getDegree {
+        background-color: #841265;
+    }
+    .getDegree:hover {
+        background-color: #570c43;
+    }
+
+    .class-title, .degree-title {
+        font-size: 1.5em;
+        text-align: center;
+        background-color: #d0d8ee;
+        color: rgb(34, 34, 34);
+        border-radius: 6px;
+        width: 150px;
+        margin: 0 auto 20px auto;
+    }
+}
+
+@media only screen and (max-width:576px) {
+    h1 {
+        font-family: 'Alfa Slab One', cursive;
+        color: white;
+        font-size: 2em;
+        margin: 5% auto 0px auto;
+    }
+
+    .container {
+        margin: 10px auto;
+        padding: 1.2em;
+        width: 300px;
+        background-color: #8aa4f2;
+        border-radius: 6px;
+        font-family: 'Architects Daughter', cursive;
+    }
+
+    .takeClass, .getDegree {
+        text-align: center;
+        font-size: 1.2em;
+        font-family: 'Alegreya Sans SC', sans-serif;
+        border-radius: 8px;
+        color: white;
+        cursor: pointer;
+    }
+
+    .takeClass {
+        background-color: #c5349e;
+    }
+    .takeClass:hover {
+        background-color: #8f2472;
+    }
+    .getDegree {
+        background-color: #841265;
+    }
+    .getDegree:hover {
+        background-color: #570c43;
+    }
+
+    .class-title, .degree-title {
+        font-size: 1em;
+        text-align: center;
+        background-color: #d0d8ee;
+        color: rgb(34, 34, 34);
+        border-radius: 4px;
+        width: 100px;
+        margin: 0 auto 20px auto;
+    }
+}

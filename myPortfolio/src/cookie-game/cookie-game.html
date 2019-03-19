@@ -6,19 +6,32 @@
     <title>Cookies</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="cookie-game.css" />
+    <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans+SC|Alfa+Slab+One|Architects+Daughter" rel="stylesheet">
     <script src="main.js"></script>
 </head>
 <body>
-		<div onclick="classClicker(1)">Take a class!</div>
-		<br/>
-		Classes <span id="classes">0</span>
-		<br/>
-		<div onclick="getDegree()">Get a degree!</div>
-		<br/>
-		Degrees: <span id="degrees">0</span>
-		<br/>
-        Degree Cost: <span id="degreeCost">2</span>
-        <span id="congratulations">s</span>
+    <h1>Let's go to School</h1>
+    <div class="container">
+        <div class="takeClass" onclick="classClicker(1)">
+            Take a Class
+        </div>
+        <br/>
+        <div class="class-title">
+            Classes <span id="classes">0</span>
+        </div>
+        <br/>
+        <div class="getDegree" onclick="getDegree()">
+            Graduate
+        </div>
+        <br/>
+        <div class="degree-title">
+            Degrees: <span id="degrees">0</span>
+        </div>
+        <br/>
+        <div class="cost">
+            Degree Cost: <span id="degreeCost">2</span>
+        </div>
+    </div>
     <script src="../../jquery/jquery.js"></script>
     <script src="cookie-game.js"></script>
 </body>
