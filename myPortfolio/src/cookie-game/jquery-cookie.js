@@ -1,12 +1,9 @@
 $(document).ready(function() {
 let classes = 0; //Declares that number of classes begins at zero
-
 //Creates a function that increases the number of classes displayed, connected to the onclick function
-$(.takeClass).click(function()){
-    classes++;
-
-}
-
+$classClicker(number){
+    classes= classes + number;
+    $("classes").innerHTML = classes;
 }
 function classClicker(number){
     classes = classes + number;
